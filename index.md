@@ -15,7 +15,7 @@ DiCivil includes multiple Autodesk Civil 3D Plugins to boost your productivity. 
 
 ## DiCivil Manage Core Features 
 
-- Edit Object, Label, and Table styles in tables; multi‑row editing and support for editing main and sub components. Edit children component label style data.
+- Edit Object, Label, and Table styles in tables; multiâ€‘row editing and support for editing main and sub components. Edit children component label style data.
 
 - Inspect usage of layers, line types, hatch styles, dimension styles, and text styles objects. Object scan assignments, batch reassign, identify unused items, and batch delete/reassign.
 
@@ -28,3 +28,7 @@ DiCivil includes multiple Autodesk Civil 3D Plugins to boost your productivity. 
 [Download](https://diroots.com/civil-3d-plugins/dicivil/){: .btn .btn-di-orange }
 
 Looking for DiCivil Design documentation? Visit [docs.dicivil-design.diroots.com](https://docs.dicivil-design.diroots.com).
+
+Preview flow test DiCivilManage first commit.
+
+![Preview flow test image]({{ '/assets/images/preview-flow-test.png' | relative_url }})
