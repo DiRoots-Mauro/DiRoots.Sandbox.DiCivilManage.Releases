@@ -1,0 +1,324 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head><meta name="robots" content="noindex">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  
+    <title>Export/Import to Excel - DiRoots.Sandbox.DiCivilManage.Releases</title>
+
+    
+  
+
+  <link rel="shortcut icon" href="/DiRoots.Sandbox.DiCivilManage.Releases/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/assets/css/just-the-docs-default.css">
+
+  
+
+  
+    <script type="text/javascript" src="/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/assets/js/vendor/lunr.min.js"></script>
+  
+  <script type="text/javascript" src="/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/assets/js/just-the-docs.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Export/Import to Excel | DiRoots.Sandbox.DiCivilManage.Releases</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Export/Import to Excel" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Replica of DiRoots-Limited/DiRoots.DiCivil.Manage.Releases for testing documentation PR previews. Not the product repository." />
+<meta property="og:description" content="Replica of DiRoots-Limited/DiRoots.DiCivil.Manage.Releases for testing documentation PR previews. Not the product repository." />
+<link rel="canonical" href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/pages/DrawingLayers/DL-Data-Exchange.html" />
+<meta property="og:url" content="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/pages/DrawingLayers/DL-Data-Exchange.html" />
+<meta property="og:site_name" content="DiRoots.Sandbox.DiCivilManage.Releases" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Export/Import to Excel" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Replica of DiRoots-Limited/DiRoots.DiCivil.Manage.Releases for testing documentation PR previews. Not the product repository.","headline":"Export/Import to Excel","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/assets/images/diroots-main-logo.png"}},"url":"https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/pages/DrawingLayers/DL-Data-Exchange.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!--  Essential META Tags -->
+<meta property="og:title" content="DiCivil | User Guide">
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://diroots.com/wp-content/uploads/2022/01/DiCivil-Featured-Image.png">
+<meta property="og:url" content="https://docs.dicivil.diroots.com">
+<meta name="twitter:card" content="summary_large_image">
+
+<!--  Additional META tags -->
+<meta property="og:description" content="DiCivil | Civil 3D Productivity Bundle">
+<meta property="og:site_name" content="DiRoots">
+<meta name="twitter:image:alt" content="DiCivil User Manual Cover">
+
+<meta name="theme-color" content="#e6ae46">
+<meta name="rating" content="General">
+
+<meta name="twitter:site" content="@DiRoots17">
+<meta name="twitter:url" content="https://docs.dicivil.diroots.com">
+
+
+</head>
+
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="svg-link" viewBox="0 0 24 24">
+      <title>Link</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+      </svg>
+    </symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+      <title>Search</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-menu" viewBox="0 0 24 24">
+      <title>Menu</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+        <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+      <title>Expand</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+      <title>Document</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+      </svg>
+    </symbol>
+  </svg>
+
+  <div class="side-bar">
+    <div class="site-header">
+      <a href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+</a>
+      <a href="#" id="menu-button" class="site-button">
+        <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+      </a>
+    </div>
+    <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      
+        <ul class="nav-list"><li class="nav-list-item"><a href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/" class="nav-list-link">About</a></li><li class="nav-list-item"><a href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/getting-started.html" class="nav-list-link">Getting Started</a></li><li class="nav-list-item"><a href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/DiCivil-Tips.html" class="nav-list-link">DiCivil Tips</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/dicivil-manage" class="nav-list-link">DiCivil Manage</a><ul class="nav-list "></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/style-helper-user-guide" class="nav-list-link">Style Helper</a><ul class="nav-list "><li class="nav-list-item "><a href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/pages/StyleHelper/SH-Object-Label-Table-Styles.html" class="nav-list-link">Object, Label, and Table Styles</a></li><li class="nav-list-item "><a href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/pages/StyleHelper/SH-Editing-Features.html" class="nav-list-link">Editing Features</a></li><li class="nav-list-item "><a href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/pages/StyleHelper/SH-Profile.html" class="nav-list-link">Profile</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/template-inspector-user-guide" class="nav-list-link">Template Inspector</a><ul class="nav-list "><li class="nav-list-item "><a href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/pages/TemplateInspector/TI-Object-Inspection.html" class="nav-list-link">Object Inspection</a></li><li class="nav-list-item "><a href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/pages/TemplateInspector/TI-Batch-Actions.html" class="nav-list-link">Delete and Batch Actions</a></li></ul></li><li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/drawing-layers-user-guide" class="nav-list-link">Drawing Layers</a><ul class="nav-list "><li class="nav-list-item "><a href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/pages/DrawingLayers/DL-Spreadsheet-Interface.html" class="nav-list-link">Spreadsheet Interface</a></li><li class="nav-list-item  active"><a href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/pages/DrawingLayers/DL-Data-Exchange.html" class="nav-list-link active">Export/Import to Excel</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/transfer-object-layers-user-guide" class="nav-list-link">Transfer Object Layers</a><ul class="nav-list "><li class="nav-list-item "><a href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/pages/TransferObjectLayers/TOL-Transfer-Object-Layers.html" class="nav-list-link">Layer Settings</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/transfer-survey-standards-user-guide" class="nav-list-link">Transfer Survey Standards</a><ul class="nav-list "><li class="nav-list-item "><a href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/pages/TransferSurveyStandards/TSS-Transfer-Point-Description-Keys.html" class="nav-list-link">Transfer Point Description Keys</a></li><li class="nav-list-item "><a href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/pages/TransferSurveyStandards/TSS-Transfer-Figure-Prefix-Database.html" class="nav-list-link">Transfer Figure Prefix Database</a></li></ul></li><li class="nav-list-item"><a href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/dicivil-design" class="nav-list-link">DiCivil Design</a></li></ul>
+
+      
+    </nav>
+    <footer class="site-footer">
+      Copyright &copy; 2017 - 2026 <a href="https://diroots.com">DiRoots, LDA.</a> All rights reserved.
+    </footer>
+  </div>
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+      
+        <div class="search">
+          <div class="search-input-wrap">
+            <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search DiRoots.Sandbox.DiCivilManage.Releases" aria-label="Search DiRoots.Sandbox.DiCivilManage.Releases" autocomplete="off">
+            <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+          </div>
+          <div id="search-results" class="search-results"></div>
+        </div>
+      
+      
+      
+        <nav aria-label="Auxiliary" class="aux-nav">
+          <ul class="aux-nav-list">
+            
+              <li class="aux-nav-list-item">
+                <a href="https://diroots.com/" class="site-button"
+                  
+                >
+                  Custom Software Development
+                </a>
+              </li>
+            
+          </ul>
+        </nav>
+      
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list">
+              
+                <li class="breadcrumb-nav-list-item"><a href="https://docs.dicivil-manage.diroots.com/DiRoots.Sandbox.DiCivilManage.Releases/previews/pr-1/docs/drawing-layers-user-guide">Drawing Layers</a></li>
+              
+              <li class="breadcrumb-nav-list-item"><span>Export/Import to Excel</span></li>
+            </ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+        
+          <h1 class="no_toc" id="exportimport-to-excel">
+        
+        
+          <a href="#exportimport-to-excel" class="anchor-heading" aria-labelledby="exportimport-to-excel"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Export/Import to Excel
+        
+        
+      </h1>
+    
+      <h2 class="no_toc text-delta" id="table-of-contents">
+        
+        
+          <a href="#table-of-contents" class="anchor-heading" aria-labelledby="table-of-contents"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Table of contents
+        
+        
+      </h2>
+    
+
+<ol id="markdown-toc">
+  <li><a href="#overview" id="markdown-toc-overview">Overview</a></li>
+  <li><a href="#export-process" id="markdown-toc-export-process">Export Process</a>    <ol>
+      <li><a href="#export-to-excel" id="markdown-toc-export-to-excel">Export to Excel</a></li>
+      <li><a href="#export-workflow" id="markdown-toc-export-workflow">Export Workflow</a></li>
+    </ol>
+  </li>
+  <li><a href="#import-process" id="markdown-toc-import-process">Import Process</a>    <ol>
+      <li><a href="#standard-import-process" id="markdown-toc-standard-import-process">Standard Import Process</a></li>
+      <li><a href="#import-workflow" id="markdown-toc-import-workflow">Import Workflow</a></li>
+    </ol>
+  </li>
+</ol><hr />
+
+<p>Drawing Layers provides import and export capabilities that allow you to export layer data to Excel for external editing, analysis, and standardization or backup purposes, as well as import updated layer data with change detection feature.</p>
+      <h2 id="overview">
+        
+        
+          <a href="#overview" class="anchor-heading" aria-labelledby="overview"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Overview
+        
+        
+      </h2>
+    
+
+<p>Export and import functionality allows you to:</p>
+<ul>
+  <li>Export layer data to Excel format for external editing.</li>
+  <li>Import updated layer data from Excel files.</li>
+  <li>Detect changes in imported data.</li>
+  <li>Review and validate changes before applying.</li>
+</ul>
+      <h2 id="export-process">
+        
+        
+          <a href="#export-process" class="anchor-heading" aria-labelledby="export-process"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Export Process
+        
+        
+      </h2>
+    
+      <h3 id="export-to-excel">
+        
+        
+          <a href="#export-to-excel" class="anchor-heading" aria-labelledby="export-to-excel"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Export to Excel
+        
+        
+      </h3>
+    
+
+<p>Export data for external editing:</p>
+
+<ul>
+  <li><strong>Layers Export</strong> - Export layers data to Excel.</li>
+  <li><strong>File Saving</strong> - Save Excel file with layer data.</li>
+  <li><strong>External Editing</strong> - Edit data in Excel environment.</li>
+  <li><strong>Data Preservation</strong> - Preserve all layer data and properties.</li>
+</ul>
+      <h3 id="export-workflow">
+        
+        
+          <a href="#export-workflow" class="anchor-heading" aria-labelledby="export-workflow"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Export Workflow
+        
+        
+      </h3>
+    
+
+<ol>
+  <li><strong>Select Data</strong> - Choose data to export (for individual use or collaboration).</li>
+  <li><strong>Configure Export</strong> - Set export options and settings.</li>
+  <li><strong>Choose Location</strong> - Select file save location.</li>
+  <li><strong>Execute Export</strong> - Perform the export operation.</li>
+  <li><strong>Verify Export</strong> - Verify exported data integrity.</li>
+  <li><strong>Share &amp; Collaborate</strong> - Share file with team members for external editing (optional).</li>
+  <li><strong>Collect Updates</strong> - Collect changes from team members and import back to tool (optional).</li>
+</ol>
+
+<p><img src="/DiRoots.Sandbox.DiCivilManage.Releases/assets/images/GIFs/DL/Export-Process.gif" alt="Export Process" />
+<sub>Note: the version on the image may not reflect the <a href="https://diroots.com/civil-3d-plugins/dicivil/">latest version of DiCivil Package</a>.</sub></p>
+      <h2 id="import-process">
+        
+        
+          <a href="#import-process" class="anchor-heading" aria-labelledby="import-process"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Import Process
+        
+        
+      </h2>
+    
+      <h3 id="standard-import-process">
+        
+        
+          <a href="#standard-import-process" class="anchor-heading" aria-labelledby="standard-import-process"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Standard Import Process
+        
+        
+      </h3>
+    
+
+<p>The import process provides comprehensive data import capabilities with automatic change detection and flexible configuration options:</p>
+
+<ul>
+  <li><strong>File Selection</strong> - Select Excel file for import (updated data or team member files).</li>
+  <li><strong>Import Configuration</strong> - Configure import parameters, data mapping, and validation rules.</li>
+  <li><strong>Change Detection</strong> - Automatically detect and highlight changes with color coding.</li>
+  <li><strong>Data Selection</strong> - Choose specific data subsets, partial imports, or filtered data sets.</li>
+  <li><strong>Change Review</strong> - Review detected changes with visual indicators and summary.</li>
+  <li><strong>Validation</strong> - Validate imported data and detected changes for accuracy.</li>
+  <li><strong>Custom Options</strong> - Create custom import configurations as needed.</li>
+</ul>
+      <h3 id="import-workflow">
+        
+        
+          <a href="#import-workflow" class="anchor-heading" aria-labelledby="import-workflow"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Import Workflow
+        
+        
+      </h3>
+    
+
+<ol>
+  <li><strong>Select File</strong> - Choose Excel file to import (from team members or updated data).</li>
+  <li><strong>Configure Import</strong> - Set import options and settings.</li>
+  <li><strong>Review Changes</strong> - Review detected changes with color highlighting (changed values highlighted in green).</li>
+  <li><strong>Validate Data</strong> - Validate imported data and changes.</li>
+  <li><strong>Apply Changes</strong> - Apply verified changes to layer data.</li>
+</ol>
+
+<p><img src="/DiRoots.Sandbox.DiCivilManage.Releases/assets/images/GIFs/DL/Import-Process.gif" alt="Import Process" />
+<sub>Note: the version on the image may not reflect the <a href="https://diroots.com/civil-3d-plugins/dicivil/">latest version of DiCivil Package</a>.</sub></p>
+
+        
+
+        
+
+        
+        
+
+      </div>
+    </div>
+
+    
+      
+
+      <div class="search-overlay"></div>
+    
+  </div>
+</body>
+</html>
+
